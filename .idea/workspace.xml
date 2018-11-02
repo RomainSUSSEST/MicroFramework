@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="52caa6fd-63e2-4e78-87d7-3a19842e26cf" name="Default" comment="V 2.0&#10;&#10;Ep. 13">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/App.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Database.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Table/Article.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Table/Table.php" />
+    <list default="true" id="52caa6fd-63e2-4e78-87d7-3a19842e26cf" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pages/home.php" afterPath="$PROJECT_DIR$/pages/home.php" />
-      <change beforePath="$PROJECT_DIR$/pages/single.php" afterPath="$PROJECT_DIR$/pages/single.php" />
-      <change beforePath="$PROJECT_DIR$/pages/templates/default.php" afterPath="$PROJECT_DIR$/pages/templates/default.php" />
-      <change beforePath="$PROJECT_DIR$/public/index.php" afterPath="$PROJECT_DIR$/public/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,8 +36,8 @@
       <file leaf-file-name="Table.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Table/Table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="319">
+              <caret line="20" column="79" lean-forward="false" selection-start-line="20" selection-start-column="79" selection-end-line="20" selection-end-column="79" />
               <folding>
                 <marker date="1541195305944" expanded="true" signature="329:342" ph="SELECT * FRO... " />
                 <marker date="1541195305944" expanded="true" signature="329:385" ph="SELECT * FRO... ${static::getTable()}" />
@@ -237,7 +229,7 @@
       <updated>1541173751881</updated>
       <workItem from="1541173754547" duration="130000" />
       <workItem from="1541173905368" duration="3866000" />
-      <workItem from="1541179988913" duration="12578000" />
+      <workItem from="1541179988913" duration="12606000" />
     </task>
     <task id="LOCAL-00001" summary="V 1.0">
       <created>1541178905893</created>
@@ -246,19 +238,25 @@
       <option name="project" value="LOCAL" />
       <updated>1541178905893</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="V 2.0&#10;&#10;Ep. 13">
+      <created>1541196287747</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1541196287747</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16574000" />
+    <option name="totallyTimeSpent" value="16602000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32944608" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32944608" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -373,8 +371,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Table/Table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="319">
+          <caret line="20" column="79" lean-forward="false" selection-start-line="20" selection-start-column="79" selection-end-line="20" selection-end-column="79" />
           <folding>
             <marker date="1541195305944" expanded="true" signature="329:342" ph="SELECT * FRO... " />
             <marker date="1541195305944" expanded="true" signature="329:385" ph="SELECT * FRO... ${static::getTable()}" />
