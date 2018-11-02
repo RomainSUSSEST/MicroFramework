@@ -1,9 +1,11 @@
-<?php
+<div class="row">
+    <div class="col-sm-8">
+        <?php foreach (\App\Table\Article::getLast() as $article): ?>
 
-$pdo = new PDO('mysql:host=localhost;dbname=microframework','romain','');
+            <h2><a href="<?= $article->url; ?>"><?= $article->titre_article; ?></a></h2>
 
-//$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+            <p><?= $article->extrait; ?></p>
 
-$pdo->exec('INSERT INTO articles SET titre ="Mon titre", date ="' . date('Y-m-d H:i:s') .'"');
-
-var_dump($pdo);
+        <?php endforeach; ?>
+    </div>
+</div>

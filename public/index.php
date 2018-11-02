@@ -12,12 +12,18 @@ if(isset($_GET['page']))
     $page = 'home';
 }
 
+
+// Initialisation des objets
+
+$db = new App\Database('microframework');
+
+
 ob_start();
 
 if($page === 'home')
 {
     require '../pages/home.php';
-} elseif($page === 'single') {
+} elseif($page === 'article') {
 
     require '../pages/single.php';
 }
