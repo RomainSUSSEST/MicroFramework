@@ -1,33 +1,18 @@
 <?php
+define('ROOT', dirname(__DIR__));
+require ROOT . '/app/App.php';
+App::load();
 
-require '../app/Autoloader.php';
-\App\Autoloader::register();
-
-
-if(isset($_GET['page']))
-{
-
-    $page = $_GET['page'];
-} else {
-    $page = 'home';
+if(isset($_GET['p'])){
+    $page = $_GET['p'];
+}else{
+$page = 'posts.index';
 }
 
+$page = explode('.', $page);
 
-// Initialisation des objets
+$controller = '\App\Controller\\' . ucfirst($page[0]) . 'Controller';
+$action = $page[1];
 
-$db = new App\Database('microframework');
-
-
-ob_start();
-
-if($page === 'home')
-{
-    require '../pages/home.php';
-} elseif($page === 'article') {
-
-    require '../pages/single.php';
-}
-
-$content = ob_get_clean();
-
-require '../pages/templates/default.php';
+$controller = new $controller();
+$controller->$action();
